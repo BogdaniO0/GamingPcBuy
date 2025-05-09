@@ -1,78 +1,75 @@
 body {
-    font-family: sans-serif;
-}
+    background-color: black;
+    color: #49C61A;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}  
 
 header {
-    background-color: #97B1F0;
-    height: 400px;
+    background-color: #27a227;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #3e733e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+    
+footer {
+    background-color: #4f4f4f;
+    color: white;
+    padding: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 10px;
+    justify-content: center;
+}
+.product {
+    background-color: #237504;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-radius: 21px;
+    color: black;
+    font-size: 30px;
+    width: 258px;
+    height: 256px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
+}
+.product img {
+    width: 208.96px;
+    height: 206px;
+}
+.footer {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
 }
 
-h1 {
-    border: 5px solid #3871ff;
-    border-radius: 5px;
-    width: 554px;
-    height: 158px;
-    text-align: center;
-    background-color: white;
-    font-weight: 900;
-    font-size: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.section1, .section2, .section3, .section4, .section5 {
-    border-radius: 9px;
-    width: 160px;
-    height: 70px;
-    background-color: #414857;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.about {
-    font-size: 48px;
-    color: #2c3e50;
-}
-
-.abouta {
-    font-size: 34px;
-    color: #000;
-    width: 50%;
-}
-
-.abouta img {
-    position: absolute;
-    right: 8%;
-    top: 520px;
-}
-
-.popular {
-    font-size: 48px;
-    text-align: center;
-    color: #2c3e50;
-    padding-top: 70px;
-}
-
-.populars img {
-    width: 320px;
-    height: 249px;
-    margin-left: 50px;
+.Main {
+    text-decoration: underline;
+    text-decoration-color: #50F412;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 3px;
 }
